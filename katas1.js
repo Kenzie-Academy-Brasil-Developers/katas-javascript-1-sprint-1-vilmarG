@@ -1,94 +1,110 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  
+  let n = 1
+  while(n < 21){
+console.log(n)
+n++
 }
-
-//call function oneThroughTwenty
+}
+console.log(oneThroughTwenty())
+console.log("fim do loops")
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let n = 2
+  while(n < 21){
+console.log(n)
+n = (n + 2)
+}  
 }
-
-//call function evensToTwenty
+console.log(evensToTwenty())
+console.log("fim do loop")
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+  let n = 1
+  while(n < 20){
+console.log(n)
+n = (n + 2)
+}  
 }
+console.log(oddsToTwenty())
+console.log("fim do loop")
 
-//call function oddsToTwenty
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  let n = 5
+  while(n < 101){
+console.log(n)
+n = (n + 5)
+}  
 }
-
-//call function multiplesOfFive
+console.log(multiplesOfFive())
+console.log("fim do loop")
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  let n = 1
+  while(n < ( Math.sqrt(101)))  {
+console.log(n * n)
+n = n + 1
+}   
 }
-
-//call function squareNumbers
+console.log(squareNumbers())
+console.log("fim do loops")
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let n = 20
+  while(n > 0){
+console.log(n)
+n--
 }
+}
+console.log(countingBackwards())
+console.log("fim do loops")
 
-//call function countingBackwards
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let n = 20
+  while(n > 0){
+console.log(n)
+n =(n - 2)
 }
+}
+console.log(evenNumbersBackwards())
+console.log("fim do loops")
 
-//call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+    let n = 19
+  while(n > 0){
+    console.log(n)
+    n = (n - 2)
 }
+}
+console.log(oddNumbersBackwards())
+console.log("fim do loops")
 
-//call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  
+  let n = 100
+  while(n > 1){
+console.log(n)
+n = (n - 5)
+}  
 }
-
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwards())
+console.log("fim do loops")
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  
+  let n = 9
+  while(n > 0)  {
+console.log(n * n)
+n--
 }
-
-//call function squareNumbersBackwards
+}
+console.log(squareNumbersBackwards())
+console.log("fim do loops")
