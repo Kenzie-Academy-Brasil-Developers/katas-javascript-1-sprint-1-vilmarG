@@ -6,7 +6,7 @@ console.log(n)
 n++
 }
 }
-console.log(oneThroughTwenty())
+oneThroughTwenty()
 console.log("fim do loops")
 
 function evensToTwenty() {
@@ -17,7 +17,7 @@ console.log(n)
 n = (n + 2)
 }  
 }
-console.log(evensToTwenty())
+evensToTwenty()
 console.log("fim do loop")
 
 function oddsToTwenty() {
@@ -28,7 +28,7 @@ console.log(n)
 n = (n + 2)
 }  
 }
-console.log(oddsToTwenty())
+oddsToTwenty()
 console.log("fim do loop")
 
 
@@ -40,7 +40,7 @@ console.log(n)
 n = (n + 5)
 }  
 }
-console.log(multiplesOfFive())
+multiplesOfFive()
 console.log("fim do loop")
 
 function squareNumbers() {
@@ -50,7 +50,7 @@ console.log(n * n)
 n = n + 1
 }   
 }
-console.log(squareNumbers())
+squareNumbers()
 console.log("fim do loops")
 
 function countingBackwards() {
@@ -60,7 +60,7 @@ console.log(n)
 n--
 }
 }
-console.log(countingBackwards())
+countingBackwards()
 console.log("fim do loops")
 
 
@@ -72,7 +72,7 @@ console.log(n)
 n =(n - 2)
 }
 }
-console.log(evenNumbersBackwards())
+evenNumbersBackwards()
 console.log("fim do loops")
 
 
@@ -83,7 +83,7 @@ function oddNumbersBackwards() {
     n = (n - 2)
 }
 }
-console.log(oddNumbersBackwards())
+oddNumbersBackwards()
 console.log("fim do loops")
 
 
@@ -95,7 +95,7 @@ console.log(n)
 n = (n - 5)
 }  
 }
-console.log(multiplesOfFiveBackwards())
+multiplesOfFiveBackwards()
 console.log("fim do loops")
 
 function squareNumbersBackwards() {
@@ -106,5 +106,5 @@ console.log(n * n)
 n--
 }
 }
-console.log(squareNumbersBackwards())
+squareNumbersBackwards()
 console.log("fim do loops")
