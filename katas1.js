@@ -1,110 +1,126 @@
 function oneThroughTwenty() {
-  
-  let n = 1
-  while(n < 21){
-console.log(n)
-n++
+  let retorno = []
+  let n = 0
+  while(n < 20){
+   n++
+   retorno.push(n)
 }
+return retorno
 }
-oneThroughTwenty()
+console.log(oneThroughTwenty())
 console.log("fim do loops")
 
 function evensToTwenty() {
-    
+    let retorno = []
   let n = 2
-  while(n < 21){
-console.log(n)
+  while(n < 20){
+retorno.push(n)
 n = (n + 2)
 }  
+return retorno
 }
-evensToTwenty()
+console.log(evensToTwenty())
 console.log("fim do loop")
 
-function oddsToTwenty() {
-    
+function oddsToTwenty(){
+  let retorno = []
   let n = 1
   while(n < 20){
-console.log(n)
+retorno.push(n)
 n = (n + 2)
 }  
+return retorno
 }
-oddsToTwenty()
+console.log(oddsToTwenty())
 console.log("fim do loop")
 
 
 function multiplesOfFive() {
-    
+  let retorno = []
   let n = 5
-  while(n < 101){
-console.log(n)
+  while(n < 100){
+ retorno.push(n)
 n = (n + 5)
 }  
+return retorno
 }
-multiplesOfFive()
+console.log(multiplesOfFive())
 console.log("fim do loop")
 
+
 function squareNumbers() {
+  let retorno = []
   let n = 1
   while(n < 10)  {
-console.log(n * n)
+retorno.push(n * n)
 n = n + 1
 }   
+return retorno
 }
-squareNumbers()
+console.log(squareNumbers())
 console.log("fim do loops")
 
+
+
 function countingBackwards() {
+  let retorno = []
   let n = 20
   while(n > 0){
-console.log(n)
+retorno.push(n)
 n--
 }
+return retorno
 }
-countingBackwards()
+console.log(countingBackwards())
 console.log("fim do loops")
 
 
 function evenNumbersBackwards() {
-    
+  let retorno = []
   let n = 20
   while(n > 0){
-console.log(n)
+    retorno.push(n)
 n =(n - 2)
 }
+return retorno
 }
-evenNumbersBackwards()
+console.log(evenNumbersBackwards())
 console.log("fim do loops")
 
 
 function oddNumbersBackwards() {
-    let n = 19
+  let retorno = []  
+  let n = 19
   while(n > 0){
-    console.log(n)
+    retorno.push(n)
     n = (n - 2)
 }
+return retorno
 }
-oddNumbersBackwards()
+console.log(oddNumbersBackwards())
 console.log("fim do loops")
 
 
 function multiplesOfFiveBackwards() {
-  
+  let retorno = []
   let n = 100
   while(n > 1){
-console.log(n)
+    retorno.push(n)
 n = (n - 5)
 }  
+return retorno
 }
-multiplesOfFiveBackwards()
+console.log(multiplesOfFiveBackwards())
 console.log("fim do loops")
 
 function squareNumbersBackwards() {
-  
+  let retorno = []
   let n = 9
   while(n > 0)  {
-console.log(n * n)
+    retorno.push(n * n)
 n--
 }
+return retorno
 }
-squareNumbersBackwards()
+console.log(squareNumbersBackwards())
 console.log("fim do loops")
