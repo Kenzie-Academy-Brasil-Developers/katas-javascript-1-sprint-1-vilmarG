@@ -45,7 +45,7 @@ console.log("fim do loop")
 
 function squareNumbers() {
   let n = 1
-  while(n < ( Math.sqrt(101)))  {
+  while(n < 10)  {
 console.log(n * n)
 n = n + 1
 }   
